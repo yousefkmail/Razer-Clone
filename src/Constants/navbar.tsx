@@ -1,0 +1,9 @@
+export const PC_Label = "PC";
+export const Console_Label = "Console";
+export const Mobile_Label = "Mobile";
+export const Lifestyle_Label = "Lifestyle";
+export const Services_Label = "Services";
+export const Community_Label = "Community";
+export const Support_Label = "Support";
+export const Store_Label = "Store";
+export const Search_Bar_Label = "Search Razer.com";
