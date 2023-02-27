@@ -1,6 +1,7 @@
 import CollapseNavbar from "./Collapsenavbar";
 import style from "./Navbar.module.css";
 import { useRef } from "react";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -18,11 +19,13 @@ const Navbar = () => {
             alt=""
           />
         </button>
+        <NavLink style={{ height: "60%" }} to={"/"}>
+          <img
+            src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
+            alt="asd"
+          />
+        </NavLink>
 
-        <img
-          src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
-          alt="asd"
-        />
         <CollapseNavbar collapse={false} />
         <i
           style={{ width: "50px" }}

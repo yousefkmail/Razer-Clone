@@ -17,6 +17,11 @@ type CollapseNavbarType = {
 
 const CollapseNavbar = ({ collapse }: CollapseNavbarType) => {
   const navbarstyle = collapse ? style.collapse : "";
+  const GetNavLinkClass = (isActive: boolean) => {
+    return isActive
+      ? style["nav-link"] + " " + style["nav-link-active"]
+      : style["nav-link"];
+  };
   return (
     <div className={style.collapselinks + " " + navbarstyle}>
       <div className={style.searchbar}>
@@ -30,81 +35,49 @@ const CollapseNavbar = ({ collapse }: CollapseNavbarType) => {
         </div>
       </div>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/pc"}
       >
         {PC_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/console"}
       >
         {Console_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/mobile"}
       >
         {Mobile_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/lifestyle"}
       >
         {Lifestyle_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/services"}
       >
         {Services_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/community"}
       >
         {Community_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/support"}
       >
         {Support_Label}
       </NavLink>
       <NavLink
-        className={({ isActive }) =>
-          isActive
-            ? style["nav-link"] + " " + style["nav-link-active"]
-            : style["nav-link"]
-        }
+        className={({ isActive }) => GetNavLinkClass(isActive)}
         to={"/store"}
       >
         {Store_Label}
