@@ -18,6 +18,7 @@ const Navbar = () => {
             alt=""
           />
         </button>
+
         <img
           src="https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg"
           alt="asd"

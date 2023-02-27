@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import style from "./Navbar.module.css";
 import {
   Mobile_Label,
@@ -29,31 +29,86 @@ const CollapseNavbar = ({ collapse }: CollapseNavbarType) => {
           <input placeholder={Search_Bar_Label} type="search" name="" id="" />
         </div>
       </div>
-      <Link className={style["nav-link"]} to={"/"}>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/pc"}
+      >
         {PC_Label}
-      </Link>
-      <Link className={style["nav-link"]} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/console"}
+      >
         {Console_Label}
-      </Link>
-      <Link className={style["nav-link"]} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/mobile"}
+      >
         {Mobile_Label}
-      </Link>
-      <Link className={style["nav-link"]} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/lifestyle"}
+      >
         {Lifestyle_Label}
-      </Link>
-      <Link className={style["nav-link"]} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/services"}
+      >
         {Services_Label}
-      </Link>
-      <Link className={style["nav-link"]} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/community"}
+      >
         {Community_Label}
-      </Link>
-      <Link className={style["nav-link"]} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/support"}
+      >
         {Support_Label}
-      </Link>
-      <Link className={style["nav-link"] + " nav-link"} to={"/"}>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive
+            ? style["nav-link"] + " " + style["nav-link-active"]
+            : style["nav-link"]
+        }
+        to={"/store"}
+      >
         {Store_Label}
-      </Link>
-
+      </NavLink>
       <i
         className={
           style["nav-link"] +
