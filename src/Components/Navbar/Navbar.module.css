@@ -3,7 +3,7 @@
   top: 0;
   background-color: black;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
   border-bottom: 1px solid #44d62c;
   display: flex;
   justify-content: center;

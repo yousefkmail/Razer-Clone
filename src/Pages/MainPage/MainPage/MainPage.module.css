@@ -1,0 +1,87 @@
+.grid-banners {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background-color: #222222;
+  column-gap: 10px;
+}
+.h2 {
+  font-size: 3.7125rem;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.banner-container {
+  min-height: 75vh;
+  width: 100%;
+  position: relative;
+  border-bottom: 10px solid #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.content-container {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+}
+.content-container a {
+  margin: 0px 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3125rem;
+}
+
+.banner-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.banner-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+}
+
+.grid-banners .banner-container {
+  min-height: 50vh;
+}
+
+.grid-banners .h2 {
+  font-size: 2.5rem;
+}
+
+.h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 100;
+  font-weight: 300;
+}
+
+.grid-banners .h3 {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 768px) {
+  .grid-banners {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .h2 {
+    font-size: 2rem;
+  }
+
+  .h3 {
+    font-size: 1.7rem;
+  }
+}
