@@ -28,7 +28,13 @@
 .nav-link {
   color: #888;
   text-decoration: none;
+  cursor: pointer;
 }
+
+.nav-link-active {
+  color: white;
+}
+
 .inputcontainer {
   background-color: #222222;
   display: flex;
