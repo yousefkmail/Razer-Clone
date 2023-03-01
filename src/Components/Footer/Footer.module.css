@@ -1,0 +1,132 @@
+.container {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  display: grid;
+  max-width: 1200px;
+  justify-content: space-between;
+  flex-grow: 1;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: 20px 0;
+}
+
+.mobile-button {
+  display: none;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+a.atag {
+  color: #999;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px;
+}
+
+a.atag:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+.acontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  padding: 10px 5px;
+  font-size: 14px;
+  display: flex;
+}
+
+.footer-margin-line {
+  border-bottom: 1px solid #5e6b69;
+  max-width: 1200px;
+
+  margin: auto;
+}
+.footer-bottom .footer-margin-line {
+  display: none;
+}
+
+.social-media {
+  align-items: flex-end;
+  padding-right: 10px;
+}
+.footer-bottom .social-media {
+  display: none;
+}
+
+.footer-bottom {
+  background-color: black;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .acontainer {
+    display: none;
+  }
+
+  .mobile-button {
+    display: block;
+    background-color: black;
+    color: #999;
+    font-weight: 300;
+    font-size: 30px;
+    height: 40px;
+  }
+
+  .acontainer-active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .title {
+    justify-content: space-between;
+  }
+  .footer-column {
+    border-bottom: 1px solid rgb(121, 118, 123);
+    margin: 0 20px;
+    padding: 0;
+  }
+  .social-media {
+    display: none;
+  }
+
+  .footer-bottom .social-media {
+    display: flex;
+    border: none;
+    align-items: center;
+  }
+
+  .footer-margin-line {
+    display: none;
+  }
+  .footer-bottom .footer-margin-line {
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+  }
+}

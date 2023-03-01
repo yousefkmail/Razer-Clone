@@ -1,4 +1,4 @@
-import PageHeader from "../../../Components/Navbar/PageHeader/PageHeader";
+import PageHeader from "../../../Components/PageHeader/PageHeader";
 import HomePageBanner from "../Components/HomePageBanner/HomePageBanner";
 import style from "./MainPage.module.css";
 const MainPage = () => {
