@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import MainPage from "./Pages/MainPage/MainPage/MainPage";
 function App() {
   return (
-    <div className="App">
+    <div style={{ backgroundColor: "black" }} className="App">
       <Navbar />
       <Routes>
         <Route index element={<MainPage />} />
@@ -16,6 +17,7 @@ function App() {
         <Route path="/support" element={<div> welcome to support</div>} />
         <Route path="/store" element={<div> welcome to store </div>} />
       </Routes>
+      <Footer />
     </div>
   );
 }
