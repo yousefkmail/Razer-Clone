@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "header": {
+                "title": "LAPTOPS & DESKTOPS",
+                "content": "Razer systems are crafted to provide the ultimate performance for gaming and work. Enjoy desktop power made mobile with our gaming and productivity laptops, or go all-out for your build as you assemble the most powerful aRGB Chroma powered battlestation."
+            },
+            "content": [
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/381e915d58d2b9759725c30a9f2c3a0f/razer-blade-16-2023-laptop-500x500.jpg",
+                    "title": "LAPTOPS",
+                    "content": "Sleek high-performance gaming laptops"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/381e915d58d2b9759725c30a9f2c3a0f/desktops-components-category--500x500.jpg",
+                    "title": "DESKTOPS & COMPONENTS",
+                    "content": "Engineered for enthusiasts and designed for performance"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/381e915d58d2b9759725c30a9f2c3a0f/accessories-category-500x500.jpg",
+                    "title": "ACCESSORIES",
+                    "content": "Crafting the perfect gaming experience"
+                }
+            ]
+        },
+        {
+            "header": {
+                "title": "PERIPHERALS",
+                "content": "The most powerful rigs mean nothing without the high-performance gear to match. Understand what it means to wield the unfair advantage as you experience industry-leading levels of precision, control, and immersion."
+            },
+            "content": [
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/8127df0df8433ada296a732b23f3b9b4/mice-category-500x500.jpg",
+                    "title": "MICE",
+                    "content": "Pixel-perfect precision for any hand size and grip style"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/8127df0df8433ada296a732b23f3b9b4/mousemats-category-500x500.jpg",
+                    "title": "MOUSE MATS",
+                    "content": "Soft, hard, and hybrid designs to enhance your control"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/8127df0df8433ada296a732b23f3b9b4/keyboards-category-500x500.jpg",
+                    "title": "KEYBOARDS",
+                    "content": "Optical, mechanical, and every type in between"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/8127df0df8433ada296a732b23f3b9b4/mice-category-500x500.jpg",
+                    "title": "MICE",
+                    "content": "Pixel-perfect precision for any hand size and grip style"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/8127df0df8433ada296a732b23f3b9b4/mousemats-category-500x500.jpg",
+                    "title": "MOUSE MATS",
+                    "content": "Soft, hard, and hybrid designs to enhance your control"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/8127df0df8433ada296a732b23f3b9b4/keyboards-category-500x500.jpg",
+                    "title": "KEYBOARDS",
+                    "content": "Optical, mechanical, and every type in between"
+                }
+            ]
+        },
+        {
+            "header": {
+                "title": "LAPTOPS & DESKTOPS",
+                "content": "Razer systems are crafted to provide the ultimate performance for gaming and work. Enjoy desktop power made mobile with our gaming and productivity laptops, or go all-out for your build as you assemble the most powerful aRGB Chroma powered battlestation."
+            },
+            "content": [
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/381e915d58d2b9759725c30a9f2c3a0f/razer-blade-16-2023-laptop-500x500.jpg",
+                    "title": "LAPTOPS",
+                    "content": "Sleek high-performance gaming laptops"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/381e915d58d2b9759725c30a9f2c3a0f/razer-blade-16-2023-laptop-500x500.jpg",
+                    "title": "LAPTOPS",
+                    "content": "Sleek high-performance gaming laptops"
+                },
+                {
+                    "image": "https://assets2.razerzone.com/images/pnx.assets/381e915d58d2b9759725c30a9f2c3a0f/razer-blade-16-2023-laptop-500x500.jpg",
+                    "title": "LAPTOPS",
+                    "content": "Sleek high-performance gaming laptops"
+                }
+            ]
+        }
+    ]
+}
