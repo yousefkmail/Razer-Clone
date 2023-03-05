@@ -14,7 +14,9 @@ const SubNavbar = ({ data }: SubNavbarArray) => {
     <div className={style["container"]}>
       {data.map((itemdata, index) => (
         <div className={style["item-container"]} key={index}>
-          <img src={itemdata.image} alt="" />
+          <div className={style["image-container"]}>
+            <img src={itemdata.image} alt="" />
+          </div>
           <a className={style["atag"]}>{itemdata.label}</a>
           {itemdata.isNew ? (
             <span className={style["new-label"]}>New</span>
