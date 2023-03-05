@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  background-color: #1a1a1a;
+  padding: 20px;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+  column-gap: 45px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.new-label {
+  color: #f5b21d;
+  font-size: 12px;
+}
+
+.atag {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.atag:hover {
+  color: #44d62c;
+}

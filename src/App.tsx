@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import ConsolePage from "./Pages/Console/ConsolePage";
 import MainPage from "./Pages/MainPage/MainPage/MainPage";
 import PcPage from "./Pages/PcPage/PcPage";
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route index element={<MainPage />} />
         <Route path="/pc" element={<PcPage />} />
-        <Route path="/console" element={<div> Welcome to console</div>} />
+        <Route path="/console" element={<ConsolePage />} />
         <Route path="/mobile" element={<div> welcome to mobile</div>} />
         <Route path="/lifestyle" element={<div> welcome to lifestyle</div>} />
         <Route path="/services" element={<div> welcome to services</div>} />
