@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import ConsolePage from "./Pages/Console/ConsolePage";
 import MainPage from "./Pages/MainPage/MainPage/MainPage";
 import PcPage from "./Pages/PcPage/PcPage";
+import ServicesPage from "./Pages/ServicesPage/ServicesPage";
 function App() {
   return (
     <div style={{ backgroundColor: "black" }} className="App">
@@ -14,7 +15,7 @@ function App() {
         <Route path="/console" element={<ConsolePage />} />
         <Route path="/mobile" element={<div> welcome to mobile</div>} />
         <Route path="/lifestyle" element={<div> welcome to lifestyle</div>} />
-        <Route path="/services" element={<div> welcome to services</div>} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/community" element={<div> welcome to cummounity</div>} />
         <Route path="/support" element={<div> welcome to support</div>} />
         <Route path="/store" element={<div> welcome to store </div>} />
