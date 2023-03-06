@@ -19,10 +19,12 @@
   background-color: #252525;
   width: 33.33%;
   padding: 0 15px;
+  height: 100%;
 }
 .item-container {
   border-bottom: 1px solid #44d62c;
   background-color: black;
+  height: 100%;
 }
 
 .item-container img {
