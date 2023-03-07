@@ -1,10 +1,10 @@
-import style from "../ServicesPage.module.css";
+import style from "./BackgroundedImageItem.module.css";
 interface ServicesSectionProps {
   title: string;
   content: string[];
   backgroundImage: string;
 }
-const ServicesSection = ({
+const BackgroundedImageItem = ({
   title,
   content,
   backgroundImage,
@@ -25,4 +25,4 @@ const ServicesSection = ({
   );
 };
 
-export default ServicesSection;
+export default BackgroundedImageItem;
