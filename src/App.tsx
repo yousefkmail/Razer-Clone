@@ -3,6 +3,7 @@ import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import ConsolePage from "./Pages/Console/ConsolePage";
 import MainPage from "./Pages/MainPage/MainPage/MainPage";
+import MobilePage from "./Pages/MobilePage/MobilePage";
 import PcPage from "./Pages/PcPage/PcPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage";
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Route index element={<MainPage />} />
         <Route path="/pc" element={<PcPage />} />
         <Route path="/console" element={<ConsolePage />} />
-        <Route path="/mobile" element={<div> welcome to mobile</div>} />
+        <Route path="/mobile" element={<MobilePage />} />
         <Route path="/lifestyle" element={<div> welcome to lifestyle</div>} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/community" element={<div> welcome to cummounity</div>} />

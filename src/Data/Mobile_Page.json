@@ -1,0 +1,138 @@
+{
+    "data": [
+        {
+            "content": [
+                "The Ultimate Android Gaming Handheld"
+            ],
+            "title": "RAZER EDGE",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/91baf798ef1e551ef8d4e850c28a0050/razer-edge-1920x700-desktop-cat-banner.jpg"
+        },
+        {
+            "content": [
+                "Whether you’re working from home or immersed in entertainment, our industry-leading Bluetooth low-latency audio deliver smooth, stutter-free sound and seamless connectivity."
+            ],
+            "title": "STAY IN-SYNC WITH YOUR WORLD",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/6d5e42cc985b839667f80f80f88e6327/stay-in-sync-1920x700.jpg"
+        },
+        {
+            "content": [
+                "When you’re filling those few minutes in line at the coffee shop or commuting to work with a quick game or listening to that banger on repeat, Razer has the accessory that lets fellow gamers know they’re among their own."
+            ],
+            "title": "GO THE EXTRA MILE",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/8d15cb8a565e71ef01f047785d22ce69/gothe-extramile-category-1920x700-desktop.jpg"
+        }
+    ],
+    "subnav": [
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-mobile-handhelds.svg",
+            "label": "Handhelds",
+            "isNew": true
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-mobile-controller.svg",
+            "label": "Controllers"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-opus.svg",
+            "label": "Headphones"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-hammerhead.svg",
+            "label": "Earbuds"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-dac.svg",
+            "label": "DAC"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-glasses.svg",
+            "label": "Smart glasses"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-cases.svg",
+            "label": "Cases"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-accessories.svg",
+            "label": "Accessories"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-customs.svg",
+            "label": "Customs"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-cortexgames.svg",
+            "label": "Cortex Games"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-androidapps.svg",
+            "label": "Android Apps"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-iosapps.svg",
+            "label": "iOS Apps"
+        }
+    ],
+    "content": [
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/fb8fbcd93487d2645e7a64470407dbaf/500x500_kishi-v2-for-iphone.jpg",
+            "title": "RAZER KISHI V2 FOR IPHONE",
+            "content": "Universal Mobile Gaming Controller for iPhone"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/fb8fbcd93487d2645e7a64470407dbaf/500x500_kishi-v2-for-android.jpg",
+            "title": "RAZER KISHI V2 FOR ANDROID",
+            "content": "Universal Mobile Gaming Controller for Android"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/41eb073828afa16458823c1b8cd2290c/razer-kishi-category-500x500.jpg",
+            "title": "RAZER KISHI",
+            "content": "Make your move with our award-winning universal mobile controller that fits most smartphone devices, designed to bring console-level control and comfort to your on-the-go gaming."
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/0f6664b8e4a2ae4aa934396b22275c5c/razer-hammerhead-tw-pro-category-500x500.jpg",
+            "title": "RAZER HAMMERHEAD TRUE WIRELESS PRO",
+            "content": "Take your audio immersion to new heights with THX® Certified true wireless earbuds that deliver breathtaking audio quality and advanced active noise cancellation."
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/0f6664b8e4a2ae4aa934396b22275c5c/razer-opus-category-500x500.jpg",
+            "title": "RAZER OPUS",
+            "content": "Savor pure, high-fidelity sound with zero distractions with wireless THX® Certified headphones that feature advanced active noise cancellation for an uninterrupted audio experience."
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/3784260489b65a92a1a7730abde98fec/500x500_thx-onyx.jpg",
+            "title": "THX ONYX™",
+            "content": "Portable DAC Headphone Amplifier"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/9cae6d0f21852982feb4ad85e2d55513/hhtw-500x500.jpg",
+            "title": "RAZER HAMMERHEAD TRUE WIRELESS",
+            "content": "Light Up Your Immersion"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/9cae6d0f21852982feb4ad85e2d55513/opusx-500x500.jpg",
+            "title": "RAZER OPUS X",
+            "content": "Wireless Low Latency Headset with ANC Technology"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/0f6664b8e4a2ae4aa934396b22275c5c/razer-anzu-category-500x500.jpg",
+            "title": "RAZER ANZU",
+            "content": "See and hear the world in a different light with cutting-edge audio glasses that protect your eyes and immerse your ears."
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/4d16742d897b1db3384122dd57afd2e7/razer-arctech-cases-category-500x500.jpg",
+            "title": "RAZER ARCTECH CASES",
+            "content": "Protect your investment while experiencing better device performance and improved phone cooling with a Thermaphene Performance layer for maximum heat dissipation."
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/4d16742d897b1db3384122dd57afd2e7/razer-charging-dock-chroma-category-500x500.jpg",
+            "title": "RAZER CHARGING PAD CHROMA",
+            "content": "Keep your devices powered up and setup blazing bright with 10W wireless fast charging and Razer Chroma™ RGB."
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/pnx.assets/4d16742d897b1db3384122dd57afd2e7/razer-phone-cooler-chroma_500x500.png",
+            "title": "RAZER PHONE COOLER CHROMA",
+            "content": "Smartphone Cooling Fan with Razer Chroma™ RGB"
+        }
+    ]
+}
