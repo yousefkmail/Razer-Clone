@@ -1,0 +1,98 @@
+{
+    "subnav": [
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-chairs.svg",
+            "label": "Chairs",
+            "isNew": true
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-watch.svg",
+            "label": "Wearables"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
+            "label": "Apparel"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-bags.svg",
+            "label": "Bags"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-bags.svg",
+            "label": "Gears"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-sneki.svg",
+            "label": "Sneki snek",
+            "isNew": true
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-respawn.svg",
+            "label": "RESPAWN"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-customs-v2.svg",
+            "label": "Customs"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-collabs.svg",
+            "label": "Collabs",
+            "isNew": true
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-book13.svg",
+            "label": "Book"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-mac.svg",
+            "label": "Mac"
+        }
+    ],
+    "data": [
+        {
+            "content": [
+                "Discover the support you need to power through gaming marathons."
+            ],
+            "title": "CHAIRS",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/0666dc773bd5460ed41bf6e1a1ebad3a/lifestyle-chairs-category-banner.jpg"
+        },
+        {
+            "content": [
+                "Can’t get enough of our adorable cutie? Catch Sneki Snek and friends in an all-new season as they continue to show why sustainability is important!"
+            ],
+            "title": "SNEKI SNEK ANIMATION SERIES",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/f016346e8c8e71ae1ad6731d95943a86/sneki-snek-s2-desktop-cat-banner.jpg"
+        },
+        {
+            "content": [
+                "A color for every style."
+            ],
+            "title": "COMPLETE YOUR SETUP",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/cd2d636f26bd91dd99923c71b9e84a83/complete-your-setup-campaign-category-banner-desktop.jpg"
+        },
+        {
+            "content": [
+                "We’re always looking to keep our gear fresh, and it doesn’t get any better than working with other brands that we as gamers love and get hype for."
+            ],
+            "title": "COLLABS",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/25525a620ccdb5488244fde60674f5e0/collabs-category-1920x700-desktop.jpg"
+        },
+        {
+            "content": [
+                "Made for the mavericks, rebels, and iconoclasts. When no-nonsense functionality meets design that speaks for itself, you’ll have no trouble making a statement."
+            ],
+            "title": "APPAREL",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/9cb7c4425da9e5099bd4e2afebc9b56b/apparel-category-1920x700-desktop.jpg"
+        },
+        {
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/2bce7b0e7f5425138cb2daf35ff9fa7a/razer-cloth-mask-v2-desktop-cat-banner.jpg",
+            "content": [
+                "Safety, style, comfort—our range of Razer face masks are designed to be an important yet seamless part of your life, offering everyday protection that looks and feels great."
+            ],
+            "title": "MASKS"
+        }
+    ],
+    "header": {
+        "title": "LIFESTYLE"
+    }
+}

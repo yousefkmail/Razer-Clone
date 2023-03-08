@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import ConsolePage from "./Pages/Console/ConsolePage";
+import LifeStyle from "./Pages/LifeStylePage/LifeStyle";
 import MainPage from "./Pages/MainPage/MainPage/MainPage";
 import MobilePage from "./Pages/MobilePage/MobilePage";
 import PcPage from "./Pages/PcPage/PcPage";
@@ -15,7 +16,7 @@ function App() {
         <Route path="/pc" element={<PcPage />} />
         <Route path="/console" element={<ConsolePage />} />
         <Route path="/mobile" element={<MobilePage />} />
-        <Route path="/lifestyle" element={<div> welcome to lifestyle</div>} />
+        <Route path="/lifestyle" element={<LifeStyle />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/community" element={<div> welcome to cummounity</div>} />
         <Route path="/support" element={<div> welcome to support</div>} />
