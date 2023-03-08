@@ -1,13 +1,14 @@
-import style from "../ServicesPage.module.css";
-interface ServicesHeaderprops {
+import style from "./Header.module.css";
+interface HeaderProps {
   title: string;
-  data: string[];
+  content?: string[];
 }
-const ServicesHeader = ({ title, data }: ServicesHeaderprops) => {
+
+const Header = ({ title, content }: HeaderProps) => {
   return (
     <div className={style["services-container"]}>
       <div className={style["services-title"]}>{title}</div>
-      {data.map((data, index) => (
+      {content?.map((data, index) => (
         <div className={style["services-data-section"]} key={index}>
           {data}
         </div>
@@ -16,4 +17,4 @@ const ServicesHeader = ({ title, data }: ServicesHeaderprops) => {
   );
 };
 
-export default ServicesHeader;
+export default Header;
