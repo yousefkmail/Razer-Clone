@@ -1,63 +1,23 @@
+import BackgroundedImageItem from "../../Components/BackgroundedImageItem/BackgroundedImageItem";
+import Header from "../../Components/Header/Header";
+import PageHeader from "../../Components/PageHeader/PageHeader";
 import SubNavbar from "../../Components/SubNavbar/SubNavbar";
-
+import {
+  Console_Page_header_contnet,
+  title,
+} from "../../Constants/Console_Page";
+import data from "../../Data/Console_Page.json";
 const ConsolePage = () => {
-  const array = [
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: false,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: true,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: false,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: false,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: false,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: true,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: true,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: false,
-      label: "Apparel",
-    },
-    {
-      image:
-        "https://assets2.razerzone.com/images/main-menu/icons/icon-apparel.svg",
-      isNew: false,
-      label: "Apparel",
-    },
-  ];
-  return <SubNavbar data={array} />;
+  return (
+    <>
+      <SubNavbar data={data.subnav} />
+      <PageHeader />
+      <Header title={title} content={[Console_Page_header_contnet]} />
+      {data.data.map((data, index) => (
+        <BackgroundedImageItem key={index} {...data} />
+      ))}
+    </>
+  );
 };
 
 export default ConsolePage;
