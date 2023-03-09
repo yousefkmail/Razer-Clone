@@ -1,0 +1,38 @@
+{
+    "subnav": [
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-xboxlogo.svg",
+            "label": "Xbox"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-playstationlogo.svg",
+            "isNew": true,
+            "label": "PlayStation"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-metaquest.svg",
+            "isNew": true,
+            "label": "Meta Quest"
+        },
+        {
+            "image": "https://assets2.razerzone.com/images/main-menu/icons/icon-accessories.svg",
+            "label": "Accessories"
+        }
+    ],
+    "data": [
+        {
+            "content": [
+                "Officially Licensed Xbox Controller and Quick Charging Stand"
+            ],
+            "title": "STORMTROOPER LIMITED EDITION",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/cf0db6796b9f43a8069e19a6ebc739cb/stormtrooper-1920x700-desktop.jpg"
+        },
+        {
+            "content": [
+                "Officially Licensed Xbox Controller and Quick Charging Stand"
+            ],
+            "title": "SONIC THE HEDGEHOG LIMITED EDITION",
+            "backgroundImage": "https://assets2.razerzone.com/images/pnx.assets/0e064526124df6127811074622ca706f/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg"
+        }
+    ]
+}
