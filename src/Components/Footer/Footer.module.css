@@ -86,6 +86,7 @@ a.atag:hover {
   }
 
   .mobile-button {
+    border: none;
     display: block;
     background-color: black;
     color: #999;

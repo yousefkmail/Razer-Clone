@@ -11,6 +11,8 @@
 
 .button {
   display: none;
+
+  border: none;
   width: 50px;
   background-color: black;
 }
