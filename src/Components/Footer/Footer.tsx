@@ -65,47 +65,49 @@ const Footer = () => {
   };
   return (
     <>
-      <div className={style.container}>
-        <div className={style["inner-container"]}>
-          {footerData.map((data, index) => (
-            <FooterLinksGroup
-              setIsDataShown={activatelinks}
-              {...data}
-              key={index}
-              index={index}
-            />
-          ))}
+      <div>
+        <div className={style.container}>
+          <div className={style["inner-container"]}>
+            {footerData.map((data, index) => (
+              <FooterLinksGroup
+                setIsDataShown={activatelinks}
+                {...data}
+                key={index}
+                index={index}
+              />
+            ))}
 
-          <FooterSocialMedia />
-        </div>
-      </div>
-
-      <div className={style["footer-margin-line"]}></div>
-      <div className={style["footer-bottom"]}>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            maxWidth: "768px",
-            flexGrow: "1",
-          }}
-        >
-          <a style={{ margin: "0 10px" }} className={style["atag"]}>
-            Copyright © 2023 Razer Inc. All rights reserved.
-          </a>
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <a className={style["atag"]}>Site Map </a>
-            <a className={style["atag"]}>Legal terms </a>
-            <a className={style["atag"]}>Privacy policy </a>
-            <a className={style["atag"]}>Cookies settings</a>
+            <FooterSocialMedia />
           </div>
         </div>
-        <div className={style["footer-margin-line"]}></div>
 
-        <div style={{ color: "#999", fontSize: "14px" }}>
-          United States | Change Location
+        <div className={style["footer-margin-line"]}></div>
+        <div className={style["footer-bottom"]}>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              maxWidth: "768px",
+              flexGrow: "1",
+            }}
+          >
+            <a style={{ margin: "0 10px" }} className={style["atag"]}>
+              Copyright © 2023 Razer Inc. All rights reserved.
+            </a>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
+              <a className={style["atag"]}>Site Map </a>
+              <a className={style["atag"]}>Legal terms </a>
+              <a className={style["atag"]}>Privacy policy </a>
+              <a className={style["atag"]}>Cookies settings</a>
+            </div>
+          </div>
+          <div className={style["footer-margin-line"]}></div>
+
+          <div style={{ color: "#999", fontSize: "14px" }}>
+            United States | Change Location
+          </div>
+          <FooterSocialMedia />
         </div>
-        <FooterSocialMedia />
       </div>
     </>
   );
